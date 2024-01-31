@@ -1,5 +1,9 @@
 [submodule ".registry"]
 	path = .registry
-	url = https://github.com/r-universe-org/cran-to-git
-	shallow = true
+	url = https://github.com/opendp-dev/opendp-dev.r-universe.dev
 	branch = HEAD
+[submodule "opendp"]
+	path = opendp
+	url = https://github.com/opendp/opendp
+	branch = r-universe-dev
+	subdir = R/opendp
